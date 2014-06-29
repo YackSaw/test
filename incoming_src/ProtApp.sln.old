@@ -1,0 +1,27 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ProtApp", "ProtApp.vcproj", "{C12BA96B-B67C-4535-A031-BB72EC0F7D80}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		DebugTest = DebugTest
+		Release = Release
+		Release2 = Release2
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{C12BA96B-B67C-4535-A031-BB72EC0F7D80}.Debug.ActiveCfg = Debug|Win32
+		{C12BA96B-B67C-4535-A031-BB72EC0F7D80}.Debug.Build.0 = Debug|Win32
+		{C12BA96B-B67C-4535-A031-BB72EC0F7D80}.DebugTest.ActiveCfg = Release|Win32
+		{C12BA96B-B67C-4535-A031-BB72EC0F7D80}.DebugTest.Build.0 = Release|Win32
+		{C12BA96B-B67C-4535-A031-BB72EC0F7D80}.Release.ActiveCfg = Release|Win32
+		{C12BA96B-B67C-4535-A031-BB72EC0F7D80}.Release.Build.0 = Release|Win32
+		{C12BA96B-B67C-4535-A031-BB72EC0F7D80}.Release2.ActiveCfg = Release2|Win32
+		{C12BA96B-B67C-4535-A031-BB72EC0F7D80}.Release2.Build.0 = Release2|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

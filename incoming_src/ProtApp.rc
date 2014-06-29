@@ -1,0 +1,187 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 日本語 resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_JPN)
+#ifdef _WIN32
+LANGUAGE LANG_JAPANESE, SUBLANG_DEFAULT
+#pragma code_page(932)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DIALOG1 DIALOGEX 0, 0, 184, 56
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | 
+    WS_SYSMENU
+CAPTION "VersionInfo"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,66,35,50,14
+    ICON            IDI_ICON1,IDC_STATIC,23,7,21,20
+    LTEXT           "Incoming Noiz -Version 1.00",IDC_STATIC,47,14,90,8
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_DIALOG1, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 177
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 49
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MENU1 MENU 
+BEGIN
+    POPUP "ファイル(&F)"
+    BEGIN
+        POPUP "セーブ(&S)"
+        BEGIN
+            MENUITEM "未使用(&1)",                  ID_SAVE_1
+            MENUITEM "未使用(&2)",                  ID_SAVE_2
+            MENUITEM "未使用(&3)",                  ID_SAVE_3
+        END
+        POPUP "ロード(&L)"
+        BEGIN
+            MENUITEM "未使用(&1)",                  ID_LOAD_1
+            MENUITEM "未使用(&2)",                  ID_LOAD_2
+            MENUITEM "未使用(&3)",                  ID_LOAD_3
+        END
+        MENUITEM SEPARATOR
+        MENUITEM "終了(&Q)",                    ID_FILE_QUIT
+    END
+    POPUP "ヘルプ(&H)"
+    BEGIN
+        MENUITEM "バージョン情報(&V)",          ID_HELP_VERSIONINFO
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_ICON1               ICON                    "icon1.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Data
+//
+
+IDR_PNG2    RCDATA                                    "chara0.png"
+IDR_ROOM0   RCDATA                                    "room0.jpg"
+IDR_INV           RCDATA                              "erased.gif"
+IDR_TEXWND              RCDATA                        "incoming_noiz.png"
+IDR_SORA                      RCDATA                  "sora.jpg"
+IDR_BL1                             RCDATA            "black.gif"
+IDR_WH1                                   RCDATA      "white.gif"
+IDR_AKIRE_KEI RCDATA                                  "sinbun_akire2.png"
+IDR_OKO_KEI         RCDATA                            "sinbun_oko.png"
+IDR_RCDATA2               RCDATA                      "warafutuuryoko.png"
+IDR_RCDATA3                     RCDATA                "busitu_640_u.jpg"
+IDR_RCDATA4                           RCDATA          "mori_u.jpg"
+IDR_RCDATA5 RCDATA                                    "pool_game2_u.jpg"
+IDR_RCDATA6       RCDATA                              "sch2.jpg"
+IDR_RCDATA7             RCDATA                        "akireryouko.png"
+IDR_RCDATA8                   RCDATA                  "futuuryoko.png"
+IDR_RCDATA9                         RCDATA            "hose.png"
+IDR_RCDATA10                              RCDATA      "sinbun_wara.png"
+IDR_RCDATA11 RCDATA                                   "busit_night_u2.jpg"
+IDR_RCDATA12       RCDATA                             "hentai.png"
+IDR_RCDATA13             RCDATA                       "ufo_u.jpg"
+IDR_RCDATA14                   RCDATA                 "ev_1.jpg"
+IDR_RCDATA15                         RCDATA           "title.png"
+IDR_RCDATA16                               RCDATA     "warauhose_2.png"
+IDR_RCDATA17 RCDATA                                   "busitu_asa_u.jpg"
+IDR_RCDATA18       RCDATA                             "end_title2_u.jpg"
+IDR_RCDATA19             RCDATA                       "ev_crihose.jpg"
+IDR_RCDATA20                   RCDATA                 "ev_neruhose.jpg"
+IDR_RCDATA21                         RCDATA           "ev_pool2.jpg"
+IDR_RCDATA22  RCDATA                                  "ev_rahose.jpg"
+IDR_RCDATA23        RCDATA                            "ev_warahose.jpg"
+IDR_RCDATA24              RCDATA                      "katei2_u.jpg"
+IDR_RCDATA25                    RCDATA                "oitin_u.jpg"
+IDR_RCDATA26                                RCDATA    "oryouri.jpg"
+IDR_RCDATA27                          RCDATA          "sch_asa2_u.jpg"
+IDR_RCDATA28    RCDATA                                "SYUKU_ASA_u.jpg"
+IDR_RCDATA29          RCDATA                          "tikei_asa2_u.jpg"
+IDR_RCDATA30                RCDATA                    "yoru_syukusya_u.jpg"
+IDR_RCDATA31                      RCDATA              "akirehose.png"
+IDR_RCDATA32                            RCDATA        "kogehose.png"
+IDR_RCDATA33                                  RCDATA  "nakuhose.png"
+IDR_RCDATA34                             RCDATA       "nkuhose.png"
+#endif    // 日本語 resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

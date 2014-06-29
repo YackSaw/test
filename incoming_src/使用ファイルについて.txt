@@ -1,0 +1,38 @@
+シナリオ，ゲーム中で使用した画像ファイルは自作したものを使っています．
+制作ツールは以下の通りです．
+PhotoShop 6.0，GIMP(テクスチャ制作，レタッチなど)
+SAI(キャラクタ画像制作)
+blender(3DCG制作)
+
+音楽ファイルは以下の素材サイトの物を使用しております
+
+--------------------------------------------------------------------
+Senses Circuit http://www.senses-circuit.com/
+kaoru.mid 夏香る
+3po.mid 散歩道　
+hazimari.mid 始まり
+--------------------------------------------------------------------
+SOUND IMAGE♪ http://soundimage.aki.gs/
+eim_o_0017gm.mid ファンシーくまさん
+--------------------------------------------------------------------------
+TAM Music Factory http://www.tam-music.com/
+tam-n14.mid 夏木立
+tam-n13.mid 行楽日和
+tamsi09.mid 夕焼け
+tammb07.mid 曇り空
+tamau02.mid 開幕
+tamsp11.mid 春の吹く場所で
+-----------------------------------------------------------------------
+WEB WAVE LIB http://www.s-t-t.com
+ExplosionF@11.wav
+FallD@11.wav
+BirdB@11.wav
+WindB@11.wav
+HitC@11.wav
+DoorOpenD@16.wav
+PageC@11.wav
+ExplosionB@11St.wav
+------------------------------------------------------------------------
+http://bluesky.xrea.jp/
+(semi3.mp3をwavに加工して使用しています)
+semi3.wav
